@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the archived Zenodo record."
+type: software
+title: "CODE 8100-674: Complete Cumulative Detailed-Evidence Master for Unification of Four Fundamental Interactions by Dimensional Genesis"
+version: "8100-674"
+date-released: 2026-07-12
+doi: "10.5281/zenodo.21318374"
+repository-code: "https://github.com/madein1001/dimensional-genesis-four-interactions"
+url: "https://doi.org/10.5281/zenodo.21318374"
+license: MIT
+
+authors:
+  - family-names: "Hong"
+    given-names: "Seunghyun"
+    orcid: "https://orcid.org/0009-0000-4044-2565"
+    email: "madein7504@naver.com"
+    affiliation: "Independent Researcher, Republic of Korea"
+
+abstract: >-
+  Self-contained Python reproducibility master and recorded deterministic
+  output associated with the research manuscript Unification of Four
+  Fundamental Interactions by Dimensional Genesis. CODE 8100-674 executes
+  the declared cumulative mathematical, structural, numerical, variational,
+  and runtime evidence architecture without reading previous code, previous
+  output, external datasets, CSV, JSON, or ZIP artifacts at runtime.
+
+keywords:
+  - "dimensional genesis"
+  - "four fundamental interactions"
+  - "theoretical physics"
+  - "computational physics"
+  - "reproducibility"
+  - "gauge fields"
+  - "causal structure"
+  - "CODE 8100-674"
