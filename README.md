@@ -1,306 +1,271 @@
-# Unification of Four Fundamental Interactions by Dimensional Genesis
+# Time-Residual Genesis of Gravity and the Four Fundamental Interactions
 
 ## Overview
 
-This repository provides the reproducibility code and recorded deterministic output associated with the research manuscript:
+This repository provides the executable source, mathematical manuscripts, theorem registry, derivation ledger, and reproducibility materials for a parent covariant residual-field framework generated from an eighteen-state relational grammar.
 
-**Unification of Four Fundamental Interactions by Dimensional Genesis**
+The construction follows the causal chain:
 
-Author: **Seunghyun Hong**  
-Affiliation: **Independent Researcher, Republic of Korea**  
-ORCID: [0009-0000-4044-2565](https://orcid.org/0009-0000-4044-2565)  
-Contact: [madein7504@naver.com](mailto:madein7504@naver.com)
+eighteen-state relational grammar
+→ directed temporal order
+→ three independent temporal residuals
+→ generated spatial rank three
+→ closed twelve-direction JS shell
+→ canonical 5+1+3+8 parent-carrier decomposition
+→ sector-spectral edge operator
+→ parent covariant residual field equation
+→ finite logarithm-free gravity correlation
+→ internal holonomy and parent curvature
+→ one parent action and one variation
+→ gravitational, electromagnetic, weak, strong, and matter equations.
 
-The current complete cumulative detailed-evidence master is **CODE 8100-674**.
+## Central Equation
+
+The central dynamical equation is:
+
+R(X_q) = A_pq U_pq R(X_p) U_pq^(-1)
+
+with:
+
+R(X) = (I - X)X^(-1)
+
+and:
+
+A_pq = a_G(p,q)P_G + a_E(p,q)P_E + a_W(p,q)P_W + a_S(p,q)P_S
+
+Here:
+
+- X_p is the bounded source-shadow state at endpoint p.
+- X_q is the uniquely generated target-shadow state at endpoint q.
+- R(X) is the positive residual coordinate.
+- A_pq is the generated sector-spectral edge operator.
+- U_pq is the invertible block-preserving parent transport.
+- P_G, P_E, P_W, and P_S are the canonical interaction-sector projectors.
+- The canonical nonconstant parent carrier has ranks 5 + 1 + 3 + 8 = 17.
+
+The gravitational projection yields a finite logarithm-free temporal-scale correlation, while noncommuting internal transport yields plaquette holonomy and parent curvature.
+
+## Parent Curvature and Parent Action
+
+The parent curvature is:
+
+F_Omega = dOmega + Omega wedge Omega
+
+The physical parent action is:
+
+S_parent[Omega,Psi]
+= (1/2)<F_Omega, M F_Omega>
++ <Psi_bar, D_Omega Psi>
++ V_rad(Psi)
+
+The stationary condition is:
+
+delta S_parent = 0
+
+The four interaction-sector equations are obtained as orthogonal projections of the one parent connection equation, while the independent matter variation produces the matter equation.
+
+## Current Research Record
+
+Current standalone executable source:
+
+CODE 8100-929 — RESIDUAL FIELD UNIFICATION PROOF
+
+Current manuscript set:
+
+Version 22
+
+- Main manuscript: 84 pages
+- Supplementary proof record: 251 pages
+- Combined full technical record: 335 pages
+- Ordered executable theorem roots: 525
+- Explicit derivation-ledger rows: 544
+- Authoritative causal stages: 26
 
 ## Repository Contents
 
-- `CODE_8100_674_FULL_VERSION_SINGLE_FILE_COMPLETE_CUMULATIVE_DETAILED_EVIDENCE_MASTER.py`  
-  Self-contained cumulative Python proof master.
+- CODE_8100_929_RESIDUAL_FIELD_UNIFICATION_PROOF.py
 
-- `CODE_8100_674_FULL_VERSION_OUTPUT.txt`  
-  Recorded deterministic output produced by CODE 8100-674.
+  Self-contained executable source for the generated theorem and derivation structure.
 
-- `README.md`  
-  Repository description, scientific scope, and reproducibility instructions.
+- CRGE_JS_SH_DGPC_V22_MAIN_MANUSCRIPT.pdf
 
-- `LICENSE`  
-  MIT License applicable to the source code in this repository.
+  Version 22 main manuscript containing the definitions, notation, central equations, causal derivation chain, principal theorems, physical interpretation, and claim boundary.
 
-## Requirements
+- CRGE_JS_SH_DGPC_V22_MAIN_MANUSCRIPT.tex
 
-- Python 3
-- Python standard library only
-- No external Python packages required
-- No external dataset required
-- No previous code file required
-- No previous output file required
-- No CSV, JSON, ZIP, or other external runtime artifact required
+  Editable LaTeX source of the main manuscript.
 
-## Execution
+- CRGE_JS_SH_DGPC_V22_SUPPLEMENTARY_PROOF_RECORD.pdf
 
-Run the source code in a newly started and clean Python process.
+  Supplementary proof record containing the complete ordered registry of 525 executable theorem roots and the complete ledger of 544 explicit derivations.
 
-### Windows
+- CRGE_JS_SH_DGPC_V22_SUPPLEMENTARY_PROOF_RECORD.tex
 
-```bat
-py -I CODE_8100_674_FULL_VERSION_SINGLE_FILE_COMPLETE_CUMULATIVE_DETAILED_EVIDENCE_MASTER.py > CODE_8100_674_REPRODUCED_OUTPUT.txt
-```
+  Editable LaTeX source of the supplementary proof record.
 
-### Linux or macOS
+- CRGE_JS_SH_DGPC_V22_COMBINED_FULL_RECORD.pdf
 
-```bash
-python3 -I CODE_8100_674_FULL_VERSION_SINGLE_FILE_COMPLETE_CUMULATIVE_DETAILED_EVIDENCE_MASTER.py > CODE_8100_674_REPRODUCED_OUTPUT.txt
-```
+  Combined 335-page full technical record.
 
-The isolated-mode option `-I` is recommended to prevent functions, variables, environment settings, imported modules, or user-specific Python configuration from affecting the runtime audit.
+- CRGE_JS_SH_DGPC_V22_COMBINED_FULL_RECORD.tex
 
-Do not execute the file inside a notebook, IDE console, or persistent interpreter session that still contains functions or variables from previously executed programs.
+  Editable LaTeX source of the combined full technical record.
 
-## Expected Reproduction Record
+- COMPLETE_THEOREM_REGISTRY_525.csv
 
-A successful clean execution produces:
+  Machine-readable registry of all 525 executable theorem roots.
 
-- 15 named evidence blocks
-- 4,316 terminal evidence leaves or rows
-- 7,870 deterministic output lines
-- no previous-artifact runtime dependency
-- no optimizer
-- no numerical fitting procedure
-- no externally supplied clock coordinate in the strict time-origin layer
-- no continuous free dimensionless parameter
-- no call-graph cycle
-- PASS status for the output-completeness audit
-- PASS status for the strict runtime-constitution audit
-- PASS status for the complete cumulative source and runtime evidence audit
-- PASS status for the final CODE 8100-674 theorem audit
+- COMPLETE_DERIVATION_LEDGER_544.csv
 
-The final output should include the following status lines:
+  Machine-readable ledger of all 544 explicit derivations.
 
-```text
-PRINTED_LEAF_OR_ROW_COUNT = 4316
-OUTPUT_COMPLETENESS_STATUS = CODE_8100_674_COMPLETE_OUTPUT_AUDIT_PASS
-STRICT_RUNTIME_CONSTITUTION_674_STATUS = STRICT_RUNTIME_CONSTITUTION_674_PASS
-```
+- CITATION.cff
 
-The final cumulative status should end in:
+  Citation metadata for the repository.
 
-```text
-COMPLETE_CUMULATIVE_SOURCE_AND_DETAILED_RUNTIME_EVIDENCE_RECOMPUTED_WITH_NO_SUMMARY_ONLY_SUBSTITUTION_PASS
-```
+- LICENSE
 
-## Reproducibility Scope
+  Repository license.
 
-CODE 8100-674 recomputes the declared mathematical, structural, numerical, variational, and computational evidence structure in one self-contained runtime.
+The deterministic complete execution output and the complete ZIP packages are distributed through GitHub Releases because of their file size.
 
-The source code does not read:
+## Reproduction
 
-- previous Python source files
+Python 3 is required.
+
+Run the source with:
+
+python CODE_8100_929_RESIDUAL_FIELD_UNIFICATION_PROOF.py > CODE_8100_929_RESIDUAL_FIELD_UNIFICATION_PROOF.txt
+
+The executable source does not read:
+
+- previous code versions
 - previous output files
-- external CSV files
-- external JSON files
-- external ZIP archives
-- downloaded datasets
-- cached final numerical results
+- manuscripts
+- fitted parameter files
+- external numerical tables
+- external runtime datasets
 
-All generated values are recomputed during execution.
+The internal computations use exact rational, finite-matrix, incidence, path, differential, variational, and closure operations on the declared generated domains.
 
-Standard reference values are restricted to the declared sealed comparison and downstream decoder layers. They are not used as runtime optimization targets in the native generation layer.
+## Proof-Record Structure
 
-## Clean-Process Reproduction Notice
+The research record is divided into three layers.
 
-A persistent Python workspace may contain functions from previously executed programs.
+### 1. Main Manuscript
 
-Because CODE 8100-674 includes whole-runtime audit functions, unrelated functions remaining in the same global workspace may be detected by the audit layer and may alter the final PASS or FAIL status.
+The main manuscript presents the theory in ordinary mathematical-paper form.
 
-For this reason, independent reproduction must use:
+It contains:
 
-- a newly started Python process, or
-- Python isolated mode using the `-I` option
+- the eighteen-state relational grammar
+- the generation of temporal order
+- three temporal residuals
+- spatial rank-three generation
+- the closed JS shell
+- the canonical 5+1+3+8 decomposition
+- the parent covariant residual field equation
+- existence and uniqueness
+- bounded-domain preservation
+- gauge covariance
+- exact path composition
+- finite logarithm-free gravity correlation
+- holonomy and parent curvature
+- one parent action
+- one variation
+- the four interaction-sector equations
+- the matter equation
+- chiral matter and anomaly conditions
+- decay, branching, scattering, and ratio-flow structures
+- continuum and effective-equation descendants
+- the distinction between internal closure and external validation
 
-A clean execution of the current source file should reproduce the archived deterministic output associated with the same code version.
+### 2. Supplementary Proof Record
+
+The supplementary proof record contains:
+
+- all 525 ordered theorem roots
+- theorem titles and statements
+- executable root identifiers
+- causal-stage classifications
+- reader-facing interpretations
+- deterministic certificate locations
+- all 544 explicit derivation rows
+- theorem-to-code correspondence
+- derivation-to-output correspondence
+- proof-completeness and artifact-coherence records
+
+### 3. Executable and Deterministic Output
+
+The Python source recomputes the generated objects and theorem gates in dependency order.
+
+The deterministic output records the corresponding rational, matrix, incidence, path, differential, variational, and closure calculations.
+
+## Integrity
+
+Python SHA-256:
+
+e3ec5ba55089e81e33c919b01d7242781c1e33f4b278531201a71f171b64f3d7
+
+Deterministic output SHA-256:
+
+dd66562bc159db538714abe7af46ef788043a967928d99ddcfeba1c5f4c59410
+
+Code-and-output ZIP SHA-256:
+
+65604b3bc47ffbafbb28650b35116550099f2dd396a47a7d30396df40ec41015
 
 ## Scientific Scope
 
-This repository documents the internal mathematical and computational tests declared in the associated manuscript.
+The executable certificates establish the stated internal results only on the generated relational, projective, rational-function, finite-action, lattice, and compatible continuum classes declared in the manuscripts.
 
-The current framework addresses:
+The following remain external scientific tests:
 
-- zero-balance dimensional genesis
-- primary-connector-secondary causal ordering
-- independent spatial-rank generation
-- rank-three isotropic spatial closure
-- one independent causal rank
-- Lorentzian event-signature selection
-- internal carrier decomposition
-- U(1), SU(2), and SU(3) field dictionaries
-- one classical parent action
-- matter variation
-- electromagnetic variation
-- weak-interaction variation
-- strong-interaction variation
-- gravitational Palatini-Einstein variation
-- selected downstream numerical readouts
-- causal route-history structure
-- internal reproducibility and falsification gates
+- empirical identity with nature
+- unrestricted equivalence to all Standard-Model configurations
+- unrestricted equivalence to all Einstein configurations
+- experimental validation
+- blind comparison with observations not used during construction
+- historical priority
+- independent third-party reproduction
+- unrestricted quantum-field-theoretic completion
 
-Repository execution alone does not constitute independent experimental confirmation.
+Internal executable closure is not presented as a substitute for independent mathematical review, physical experiment, or external reproduction.
 
-The following remain separate scientific tests:
+## DOI
 
-- independent experimental validation
-- full quantum completion
-- complete renormalized quantum-field-theory derivation
-- anomaly analysis
-- confinement proof
-- mass-gap proof
-- absolute-unit origin without an external decoder
-- precision electroweak phenomenology
-- precision collider phenomenology
-- full nonlinear spacetime-solution phenomenology
-- independent replication by external researchers
+Version 22 DOI:
 
-## Numerical Readout Record
+10.5281/zenodo.21702095
 
-The associated manuscript reports selected downstream comparison rows after the structural expressions are fixed.
+Zenodo all-versions DOI:
 
-The reported comparison record includes:
-
-- electromagnetic fine-structure coupling
-- strong coupling at the declared reference scale
-- weak Fermi coupling
-- reciprocal proton gravitational coupling
-- mass and rest-energy readouts
-- dimensional-vector consistency checks
-
-The four selected direct interaction-scale comparisons reported in the associated record are:
-
-- electromagnetic raw difference: `0.000222275616%`
-- strong raw difference: `0.001961707470%`
-- weak raw difference: `0.000898057997%`
-- gravitational raw difference: `0.004058958230%`
-
-Across the declared 24-target numerical readout set, the associated record reports:
-
-- mean raw difference: `0.001364172097%`
-- maximum raw difference: `0.004503326180%`
-- maximum dimension-vector error: `0%`
-
-These rows are downstream comparison tests. They do not define the native structural expressions.
-
-## Archived Record
-
-The manuscript, Supplementary Information, Full Data and Technical Record, source package, and archived reproducibility materials are preserved on Zenodo.
-
-### Fixed Archived Version
-
-**Version 15 DOI:**  
-[https://doi.org/10.5281/zenodo.21318374](https://doi.org/10.5281/zenodo.21318374)
-
-The Version 15 Zenodo record is the fixed archived version associated with the current CODE 8100-674 source and recorded output.
-
-### Complete Version History
-
-**All-Versions DOI:**  
-[https://doi.org/10.5281/zenodo.21127052](https://doi.org/10.5281/zenodo.21127052)
-
-The all-versions DOI represents the complete Zenodo version history and resolves to the latest published version.
-
-This GitHub repository provides a public and directly accessible reproduction mirror for the CODE 8100-674 source and its recorded deterministic output.
+10.5281/zenodo.21127052
 
 ## Citation
 
-When referring specifically to the files and results preserved in this repository, cite the fixed Version 15 Zenodo record:
+When citing this research record, cite both the Version 22 DOI and the all-versions DOI when appropriate.
 
-```text
-Hong, Seunghyun. Part 3_Unification of four fundamental interactions by dimensional genesis. Version 15. Zenodo, 2026. https://doi.org/10.5281/zenodo.21318374
-```
+Version-specific record:
 
-For references intended to follow the complete version history, cite:
+Hong, Seunghyun. Time-Residual Genesis of Gravity and the Four Fundamental Interactions: The Parent Covariant Residual Field Equation from an Eighteen-State Relational Grammar. Version 22. Zenodo. DOI: 10.5281/zenodo.21702095.
 
-```text
-Hong, Seunghyun. Part 3_Unification of four fundamental interactions by dimensional genesis. Zenodo. https://doi.org/10.5281/zenodo.21127052
-```
+All-versions record:
 
-## Independent Verification
+DOI: 10.5281/zenodo.21127052.
 
-Independent researchers are invited to:
+## Author
 
-- reproduce the recorded output in a clean environment
-- compare independently generated output with the archived output
-- identify implementation errors
-- identify mathematical counterexamples
-- test the stated conservation conditions
-- test the stated rank and isotropy conditions
-- test the stated gauge and variational identities
-- examine the declared continuum boundary
-- examine the declared quantum-completion boundary
-- submit technically documented issues
-- submit reproducible pull requests
+Seunghyun Hong
 
-A technically useful report should include:
+Independent Researcher, Republic of Korea
 
-- operating system
-- Python version
-- exact execution command
-- source-code commit or release identifier
-- complete error message
-- exact differing output section
-- minimal reproducible example
-- mathematical or computational reasoning supporting the report
+ORCID: 0009-0000-4044-2565
 
-Both confirming reproductions and technically valid counterexamples are scientifically relevant.
-
-## Contribution Policy
-
-Contributions must be technically documented and reproducible.
-
-A contribution does not automatically establish scientific authorship.
-
-Authorship, acknowledgment, citation, and contributor status are determined separately according to the nature, originality, responsibility, and extent of the contribution.
-
-Submissions may include:
-
-- reproducibility reports
-- bug reports
-- mathematical corrections
-- formal proofs
-- counterexamples
-- continuum-limit analyses
-- independent implementations
-- documentation improvements
-- test-environment records
-
-## Issue-Submission Guidance
-
-Before opening an issue, verify that:
-
-1. the current source file was used;
-2. the execution occurred in a clean Python process;
-3. no earlier program remained loaded in the same interpreter;
-4. the complete execution command is available;
-5. the differing output section can be identified exactly.
-
-Issue titles should describe the technical subject directly.
-
-Examples:
-
-```text
-Reproduction difference under Python 3.x on Windows
-```
-
-```text
-Counterexample to declared rank-lift condition
-```
-
-```text
-Continuum-limit question for the discrete action sector
-```
+Contact: madein7504@naver.com
 
 ## License
 
-The source code in this repository is released under the MIT License.
+The source code in this repository is distributed under the MIT License.
 
-The manuscript text, supplementary documents, figures, tables, and scientific claims may be subject to separate archive, copyright, or publication terms.
-
-Copyright © 2026 Seunghyun Hong
+The manuscripts and research records should be cited through their corresponding Zenodo DOI records.
